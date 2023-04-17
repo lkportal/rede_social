@@ -1,4 +1,4 @@
-import { Conteiner,ConteinerForm,InputStyle,InputBTN,ConteinerBTNCreateUser,BtnCreateUse } from "./StyleCreateUser"
+import { Conteiner,ConteinerForm,InputStyle,InputBTN } from "./StyleCreateUser"
 
 
 
@@ -14,9 +14,7 @@ const LoginUser = () => {
 
                 <InputBTN type="submit" value="Login" />
             </ConteinerForm>
-            <ConteinerBTNCreateUser>
-                <BtnCreateUse>Cadastra</BtnCreateUse>
-            </ConteinerBTNCreateUser>
+            
         </Conteiner>
     )
 }

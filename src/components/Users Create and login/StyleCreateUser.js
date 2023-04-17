@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-const blue = '#4CA9FF'
-const blue_dark = '#438FE0'
+const white = '#fff'
+const black = '#000'
 const red_light = '#E06057'
 export const Conteiner = styled.div`
     display: flex;
@@ -16,7 +16,9 @@ export const ConteinerForm = styled.div`
     justify-content: center;
     height: 500px;
     border-radius: 5px;
-    background-color: ${blue};
+    background-color: ${white};
+    box-shadow: 5px 5px #aaa;
+    border: 1px solid ${black} ;
 
 `
 export const InputStyle = styled.input`
@@ -30,14 +32,17 @@ export const InputBTN = styled.input`
     margin-top: 20px;
     padding: 10px;
     font-weight: bold;
-    background-color: ${blue_dark};
-    border: 1px solid ${blue_dark};
+  
+    background-color: ${white};
+    border: 1px solid ${black};
     width: 200px;
     font-size: 20px;
     
     &:hover{
-        background-color: ${red_light};
-        border: solid 1px ${red_light};
+        background-color: ${black};
+        border: solid 1px ${white};
+        color: ${white};
+        cursor: pointer;
     }
 `
 
