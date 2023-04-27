@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 const white = '#fff'
 const black = '#000'
-const red_light = '#E06057'
+
 export const Conteiner = styled.div`
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@ export const Conteiner = styled.div`
     
 
 `
-export const ConteinerForm = styled.div`
+export const ConteinerForm = styled.form`
     display: flex;
     flex-direction: column;
     align-items: center;

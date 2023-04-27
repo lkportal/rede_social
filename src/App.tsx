@@ -1,7 +1,7 @@
-import LoginUser from "./components/Users Create and login/LoginUser";
+import LoginUser from "./components/user_create/LoginUser";
 import {BrowserRouter,Routes,Route,Link} from 'react-router-dom'
-import { CreateUsers } from "./components/Users Create and login/CreateUsers";
-import { ConteinerLink,LinkStyle } from "./AppStyle";
+import { CreateUsers } from "./components/user_create/CreateUsers";
+import { ConteinerLink } from "./AppStyle";
 function App() {
   return (
     <div>

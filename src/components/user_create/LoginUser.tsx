@@ -2,7 +2,13 @@ import { Conteiner,ConteinerForm,InputStyle,InputBTN } from "./StyleCreateUser"
 
 
 
+
 const LoginUser = () => {
+
+    
+
+    
+    
     return (
         <Conteiner>
             <ConteinerForm >
@@ -14,7 +20,7 @@ const LoginUser = () => {
 
                 <InputBTN type="submit" value="Login" />
             </ConteinerForm>
-            
+                 
         </Conteiner>
     )
 }
